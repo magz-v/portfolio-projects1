@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:poppins;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: black;
+    color: white;
+    align-content: center;
+    justify-content: space-around;
+    
+
+}
+
+.logo{ 
+    display: flex;
+    flex:4;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.logo img{
+    height:43px;
+    width:100px;
+   
+    
+    padding:5px ;
+    
+    
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* justify-self:end; */
+    flex:5;
+}
+
+nav ul li{
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    padding:10px 20px;
+    flex:1;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+nav ul li:hover{
+    color:blue
+
+}
+
+.Contact{
+    text-decoration: underline;
+    text-decoration-color: blue ;
+    text-decoration-thickness: 3px;
+    padding:5px;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    height:92.5vh;
+    background-color: black;
+}
+
+.sidebar{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border:3px blue solid;
+    border-radius: 10px;
+    padding:20px;
+    margin:20px;
+    gap:50px;
+}
+
+.sidebar div{
+    color: white;
+}
+.sidebar h2{
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content{
+    flex:2.5;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    background-color: black;
+    padding:50px 200px;
+}
+
+.name{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap:200px;
+
+
+    
+}
+
+
+label{
+    display: block;
+    color:white;
+    font-size: larger;
+}
+
+input{
+    border:2px black solid;
+    border-bottom:2px blue solid;
+    background-color: black;
+    color: blue;
+}
+textarea{
+    border:2px blue solid;
+    background-color: black;
+    color: blue;
+    
+    padding:20px;
+}
+
+.comment label{
+    padding:10px 0px;
+}
+.content h1{
+    color:blue;
+    font-size: 30px;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:blue;
+}

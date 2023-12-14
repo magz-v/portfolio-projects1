@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:poppins;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: black;
+    color: white;
+    align-content: center;
+    justify-content: space-around;
+    
+
+}
+
+.logo{ 
+    display: flex;
+    flex:4;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.logo img{
+    height:43px;
+    width:100px;
+   
+    
+    padding:5px ;
+    
+    
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* justify-self:end; */
+    flex:5;
+}
+
+nav ul li{
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    padding:10px 20px;
+    flex:1;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+nav ul li:hover{
+    color:blue
+
+}
+
+.about{
+    text-decoration: underline;
+    text-decoration-color: blue ;
+    text-decoration-thickness: 3px;
+    padding:5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    height: 95vh;
+}
+
+.photo{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    
+
+}
+.photo img{
+    flex:0.75;
+    padding:0px 0px 0px 50px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+    align-content: center;
+    gap:60px;
+    padding-right: 30px;
+   
+   
+}
+
+/* .slider ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.slider ul li{ padding:10px
+
+}
+
+ul{
+    list-style: none;
+}
+
+.skills{
+    position: relative;
+    
+    visibility: collapse;
+}
+
+.education{
+    display: none;
+}
+.experience{
+    display: none;
+}
+/* .skillslid:checked~.education{
+    visibility: hidden;
+    
+}
+
+.skillslid:checked~.experience{
+    visibility: hidden;
+    
+} */
+/* 
+.skillslid:checked~* .skills{
+    visibility: visible;
+    
+    
+    
+} */ 
+
+
+
+
+.download{
+    align-self:center;
+}
+button{
+    border:2px blue solid;
+    border-radius:5px;
+    color:blue;
+    background-color: black;
+    font-family: poppins;
+    padding:5px;
+    align-self: center;
+    font-size: 18px;
+    transition: all 0s step-start;
+    cursor:pointer;
+    align-self: center;
+    margin:10px;
+
+    
+}
+
+button:hover{
+    background-color: blue;
+    color:black;
+}
+ul{
+    list-style: none;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: baseline;
+    gap: 30px;
+
+}
+.text>div{
+    flex:1;
+    border:3px blue solid;
+    border-radius:7px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: blue;
+    font-size: 30px;
+}
+
+h2{
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:blue;
+}
+
+li{
+    padding:7px;
+}
